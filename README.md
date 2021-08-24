@@ -16,14 +16,6 @@ The code and data documented in this repository is used to...
   - Analyze the effects of Airbnb on rental prices via OLS regression
   - Offer Suggestions to Policy Makers
   - Explore what makes a successful Airbnb
-  - Predict Airbnb Prices **********Ryan flesh out your bullet points**********
-
-## Prerequisites
-
-## Tools
-
-## Datasets
-
-## Growing Airbnb Effects
-
-## Successful Airbnb
+  - Explore variation in amenities by price
+  - Connect calendar and listing data
+  - Predict Airbnb prices based on unit features and neighborhood metrics
