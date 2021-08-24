@@ -1,4 +1,4 @@
-# Airbnb — Agent of Gentrification? Effects of Airbnb Listings on Cities and Determinants of Successful Listings 
+# Airbnb — Agent of Gentrification? Effects of Airbnbs on Cities and Determinants of Successful Listings 
 
 ![image](https://user-images.githubusercontent.com/50972659/130538682-7518b0b0-6cb1-4809-a00a-0de9f2a2869a.png)
 
