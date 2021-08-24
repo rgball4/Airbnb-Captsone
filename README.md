@@ -26,4 +26,14 @@ The code and data documented in this repository is used to...
 
 ## Growing Airbnb Effects
 
-## Successful Airbnb
+![image](https://user-images.githubusercontent.com/50972659/130540215-d821139d-5d62-4bce-8526-f007e8f8d8d0.png)
+
+![image](https://user-images.githubusercontent.com/50972659/130540156-5e40f6f2-66ff-494c-bffc-f19cd7adc48a.png)
+
+![image](https://user-images.githubusercontent.com/50972659/130540345-402ac131-2a9c-4991-bbee-bcb310837648.png)
+
+![image](https://user-images.githubusercontent.com/50972659/130540388-a305b3f9-c36c-4341-93ed-21e8056c902d.png)
+
+![image](https://user-images.githubusercontent.com/50972659/130540420-1743654a-c7b6-4798-aeab-6f08fdee8be8.png)
+
+## Successful Airbnb?
