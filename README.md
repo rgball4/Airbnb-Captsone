@@ -47,13 +47,19 @@ Inside Airbnb's detailed listing information can be used to provide a wide range
   - Neighborhood
   - Property Type
   - listing id
+  - 
 Altair is used to provide a faceted bar chart that visualizes a breakdown of the number of different property types available in each borough below. 36,905 listings are available in New York City. The boroughs with the most listings for all types are NYC, Manhattan, Brooklyn, Queens, Bronx, and Staten Island in that order, with the exception of Brooklyn having slightly more private rooms than Manhattan. Queens, Bronx, and Staten Island notably have far less listings than the rest. Entire homes and apartments are the most available, accounting for 19,213 listings, but private rooms are close to follow with 16,709 listings. This is relevant to our analysis because these very well may be listed for long-term rentals. Airbnb competes with the rental market, and the effect it felt on the housing supply.
 
-![image](https://user-images.githubusercontent.com/50972659/130540215-d821139d-5d62-4bce-8526-f007e8f8d8d0.png)
+![image](https://user-images.githubusercontent.com/50972659/130540156-5e40f6f2-66ff-494c-bffc-f19cd7adc48a.png)
 
 To break down the information in the above table further and get a neighborhood level overview, geopandas and folium is used to create an interactive choropleth, with a tooltip displaying the listings available by neighborhood. Google docs cannot render the html. So a link to the choropleth is provided: https://nbviewer.jupyter.org/github/Cody-Lange/Airbnb-Captsone/blob/main/current_airbnb_nyc_map.html
+![image](https://user-images.githubusercontent.com/50972659/130540215-d821139d-5d62-4bce-8526-f007e8f8d8d0.png)
 
-![image](https://user-images.githubusercontent.com/50972659/130540156-5e40f6f2-66ff-494c-bffc-f19cd7adc48a.png)
+From the choropleth, it can be gathered what should be fairly obvious: the downtown and touristy areas are hot spots for Airbnb listings. Hence, Manhattan, Brooklyn ,and the west side of Queens are the biggest boroughs for Airbnb. Staten Island is the least populated borough, so it follows that it has the least Airbnb listings. For an expansion of this analysis, it would be interesting to juxtapose demographics data by neighborhood to see if different cultures, races, etc. are disproportionately affected by the rise of Airbnb.
+
+Understanding the growth rate of Airbnb is essential to understanding its effect. Inside Airbnb calendar listings, unfortunately, are only for this year and the next, so we have to use the number of historical reviews as a proxy for the number of Airbnbs being listed. This somewhat weakens the analysis of the OLS regression later, but it is logical to make the assumption that a growth in the number of Airbnbs being reviewed is an indicator for growth in the number of actual listings. 
+
+Altair is used to make a bar chart juxtaposing the number Airbnbs being reviewed monthly with the monthly median rental prices dating back to 2010 by Borough. In the code, interactivity is added in the form of drop down bars to free up space. The charts are shown below.
 
 ![image](https://user-images.githubusercontent.com/50972659/130540345-402ac131-2a9c-4991-bbee-bcb310837648.png)
 
