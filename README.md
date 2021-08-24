@@ -1,5 +1,7 @@
 # Airbnb-Captsone
 
+# Airbnb — Agent of Gentrification? Effects of Airbnb Listings on Cities and Determinants of Successful Listings 
+
 ![image](https://user-images.githubusercontent.com/50972659/130538682-7518b0b0-6cb1-4809-a00a-0de9f2a2869a.png)
 
 Airbnb is an American company based out of San Francisco that operates as an online marketplace for various forms of lodging. What's game changing about AirBnb is that is departs from the business models of traditional lodging where large corporations own and provide rentals for a given rate; Airbnb offers private homeowners the platform to list their own proerties for rent for a given period of time, giving homeowners a new way to add value to their property. This business model has proven astonishingly successful given Airbnbs rate of growth, but what is the impact on our cities? More importantly, is there anything that we can suggest to help circumvent any unwanted side effects of Airbnbs's meteoric rise to success? Lastly, what makes a successful, profitable Airbnb that can benefit both hosts and the community?
