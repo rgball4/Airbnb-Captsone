@@ -18,12 +18,12 @@ The code and data documented in this repository is used to...
   - Explore what makes a successful Airbnb
   - Predict Airbnb Prices **********Ryan flesh out your bullet points**********
 
-### Prerequisites
+## Prerequisites
 
-### Tools
+## Tools
 
-#### Datasets
+## Datasets
 
-### Growing Airbnb Effects
+## Growing Airbnb Effects
 
-### Successful Airbnb
+## Successful Airbnb
