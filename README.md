@@ -10,14 +10,14 @@ The code and data documented in this repository is used to...
 
   - Import data from InsideAirbnb to get information on current listings, historical reviews, etc.
   - Set up the Connection to a Google Cloud SQL server to store & query data
-  - Breakdown where Airbnbs are currently located and what's available
-  - Analyze Airbnb's growth in NYC neighborhoods
-  - Bring in Data Extracted from NYC Open Data to control for external factors
-  - Analyze the effects of Airbnb on rental prices via OLS regression
-  - Offer Suggestions to Policy Makers
-  - Explore what makes a successful Airbnb
-  - Predict Airbnb Prices
-  - Predict Determinants of Successful Airbnb Listings
+  - Breakdown where Airbnbs are currently located and what's available (airbnb_effects_on_cities.ipynb)
+  - Analyze Airbnb's growth in NYC neighborhoods (airbnb_effects_on_cities.ipynb)
+  - Bring in Data Extracted from NYC Open Data to control for external factors (airbnb_effects_on_cities.ipynb)
+  - Analyze the effects of Airbnb on rental prices via OLS regression (airbnb_effects_on_cities.ipynb)
+  - Offer Suggestions to Policy Makers (airbnb_effects_on_cities.ipynb)
+  - Explore what makes a successful Airbnb (predicting_airbnb_price.ipynb)
+  - Predict Airbnb Prices (predicting_airbnb_price.ipynb)
+  - Predict Determinants of Successful Airbnb Listings (predicting_airbnb_price.ipynb)
 
 ## Tools
 
@@ -47,7 +47,7 @@ Inside Airbnb's detailed listing information can be used to provide a wide range
   - Neighborhood
   - Property Type
   - listing id
-  - 
+
 Altair is used to provide a faceted bar chart that visualizes a breakdown of the number of different property types available in each borough below. 36,905 listings are available in New York City. The boroughs with the most listings for all types are NYC, Manhattan, Brooklyn, Queens, Bronx, and Staten Island in that order, with the exception of Brooklyn having slightly more private rooms than Manhattan. Queens, Bronx, and Staten Island notably have far less listings than the rest. Entire homes and apartments are the most available, accounting for 19,213 listings, but private rooms are close to follow with 16,709 listings. This is relevant to our analysis because these very well may be listed for long-term rentals. Airbnb competes with the rental market, and the effect it felt on the housing supply.
 
 ![image](https://user-images.githubusercontent.com/50972659/130540156-5e40f6f2-66ff-494c-bffc-f19cd7adc48a.png)
